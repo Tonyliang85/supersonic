@@ -1,0 +1,22 @@
+{
+    "name": "机器人超声波避障程序",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "makebit": "github:zhuning239/makebit_x#6fb84a39a2fa8055f3761334b51917dbcd648aeb",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
